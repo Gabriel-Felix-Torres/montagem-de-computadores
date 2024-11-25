@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placa de Video</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="content.css">
+    <link rel="icon" href="imgs/faviconplacavideo/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <h1>O que é e como funciona uma Placa de Vídeo?</h1>
+      </header>
+<h1 class="titulo">O que é e como funciona uma Placa de Vídeo?</h1>
+<div class="container d-flex justify-content-center align-items-center mt-4">
+    <div class="row justify-content-center w-100">
+      <div class="col-md-6 col-lg-9 col-12">
+
+          <div class="content card">
+              <div class="card-body">
+                  <img src="/imgs/placa-de-video.png" alt="" class="inicio">
+              <p>A placa de vídeo, também conhecida como GPU (Graphics Processing Unit, ou Unidade de Processamento Gráfico), é um componente de hardware responsável por processar e renderizar imagens, vídeos e gráficos em um sistema. Originalmente projetada para aliviar o processador principal de tarefas gráficas complexas, a GPU evoluiu e se tornou uma peça fundamental para usuários que precisam de desempenho gráfico, como gamers, designers, profissionais de edição de vídeo e engenheiros que trabalham com modelagem 3D.</p>
+              <p>As imagens 3D que vemos nos jogos e aplicativos são tradicionalmente criadas a partir do que chamamos de gráficos vetoriais. A GPU plota uma série de coordenadas (chamadas de vértices), utilizando a conexão entre esses pontos para formar os polígonos de uma cena. No processo, ela aplica texturas, iluminação e uma série de detalhes complementares a essas formas.
+                Depois de calcular toda a cena no espaço virtual, a GPU realiza o processo de rasterização, convertendo a cena em dados de pixels. Essas informações são então enviadas para os nossos monitores, onde a imagem final é exibida. Esse processo se repete inúmeras vezes por segundo.</p>
+              <h3>Onboard ou Offboard?</h3>
+                <p>As GPUs onboard são uma excelente solução para PCs compactos e notebooks, onde é necessário o máximo de integração entre os componentes para aproveitamento de energia e duração de bateria. Contudo, o compartilhamento da RAM e o espaço restrito no chip do processador fazem com que o desempenho seja limitado em relação a placas de vídeo dedicadas.
+                Dispositivos como tablets e smartphones também costumam utilizar GPUs onboard. A diferença é que nesses aparelhos ela está integrada ao que chamamos de SoC (System on a chip). Essa peça contém praticamente todos os componentes necessários para o processamento de dados, incluindo processador, GPU, memória RAM, entre outros.</p>
+              <div class="img">
+                  <img src="/imgs/placa-de-video1.png" alt="">
+          
+              </div>
+              <h2>Quais são as funções da Placa de Vídeo?</h2>
+           <ul>
+              <li><strong>Renderização de Gráficos 2D e 3D:</strong> A GPU é especializada na renderização de gráficos, transformando dados em imagens visuais. Ela processa uma grande quantidade de polígonos e pixels, essencial para jogos, modelagens 3D e simulações visuais
+          
+              <li><strong>Descarregar o Processamento Gráfico do CPU:</strong> Ao lidar com tarefas gráficas, a GPU libera o processador (CPU) para outras operações, melhorando o desempenho geral do sistema.
+          
+              <li><strong>Processamento Paralelo:</strong> As GPUs possuem milhares de núcleos capazes de executar cálculos simultâneos, o que torna possível realizar tarefas intensivas em dados, como renderização em tempo real e aprendizado de máquina.
+          
+              <li><strong>Aceleração de Vídeo e Multimídia:</strong> As placas de vídeo modernas possuem decodificadores e codificadores de vídeo integrados (como o NVENC da NVIDIA) para reproduzir e gravar vídeos de alta qualidade sem sobrecarregar a CPU.
+
+              <li><strong>Inteligência Artificial e Computação Científica:</strong>  A capacidade de processamento paralelo das GPUs também as torna úteis para aprendizado de máquina, inteligência artificial, e simulações científicas, especialmente em ambientes que requerem alto poder de cálculo.
+          
+              <li><strong>Realidade Virtual (VR) e Realidade Aumentada (AR)</strong> : As GPUs são fundamentais para oferecer a taxa de quadros alta e renderização detalhada exigidas por aplicativos de VR e AR, proporcionando uma experiência imersiva.
+          
+           </ul>  
+           <h2>Quais são os tipos de Placa de Vídeo?</h2>
+              <p>As placas de vídeo podem ser classificadas em várias categorias, dependendo do uso, desempenho, e tecnologias suportadas. Abaixo estão os principais tipos:</p>
+              <h3>Placas de Vídeo Integradas (Onboard)</h3>
+              <p>As placas de vídeo integradas são aquelas incorporadas diretamente no processador (CPU) ou na placa-mãe. Elas compartilham a memória do sistema (RAM) em vez de ter uma memória dedicada (VRAM). Embora sejam eficientes em termos de custo e consumo de energia, as placas integradas são limitadas em desempenho, sendo mais adequadas para tarefas básicas, como navegação na web, edição de documentos, e reprodução de vídeos.</p>
+              <ul>
+                <li><strong>Intel Iris e Intel UHD Graphics:</strong> Integradas em muitos processadores Intel, essas GPUs oferecem desempenho básico, adequado para uso diário.</li>
+                <li><strong>AMD Radeon Vega:</strong> Integrada em processadores AMD Ryzen, a série Vega oferece desempenho gráfico superior às soluções integradas da Intel, sendo adequada para alguns jogos leves e aplicações de produtividade.</li>
+              </ul>
+              <div class="img">
+                  <img src="/imgs/AMDgpu.png" alt="">
+              </div>
+              <h3>Placas de Vídeo Dedicadas (Offboard)</h3>
+              <p>As placas de vídeo dedicadas são componentes separados instalados na placa-mãe via slot PCI Express, e possuem memória própria (VRAM), além de processamento gráfico independente do CPU. Esse tipo é essencial para gamers, profissionais de design, editores de vídeo e outras aplicações que demandam alta performance gráfica.</p>
+              <ul>
+                <li><strong>NVIDIA GeForce:</strong> A linha GeForce da NVIDIA é voltada para o consumidor e inclui séries como GTX e RTX, com as séries RTX 30 e RTX 40 sendo as mais modernas. A série RTX traz tecnologias avançadas como o ray tracing em tempo real e o DLSS (Deep Learning Super Sampling) para melhorar o desempenho e a qualidade de imagem.</li>
+                <li><strong>AMD Radeon RX:</strong> A linha Radeon RX da AMD compete diretamente com a GeForce, oferecendo ótimo desempenho e tecnologias como FidelityFX e Radeon Image Sharpening para melhorar a qualidade visual em jogos.</li>
+             </ul>
+              <div class="img">
+          
+                  <img src="/imgs/nvidia.png" alt="">
+              </div>
+              </div>
+          </div> 
+        </div>
+        </div>
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
